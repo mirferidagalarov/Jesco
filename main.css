@@ -1,3 +1,7 @@
+@import "../../fontawesome-free-6.4.2-web/scss/fontawesome.css";
+@import "../../fontawesome-free-6.4.2-web/scss/solid.css";
+@import "../../fontawesome-free-6.4.2-web/scss/brands.css";
+@import "../../fontawesome-free-6.4.2-web/scss/regular.css";
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +33,12 @@ html body {
 
 .secondnav ul {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.iconthree ul {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /*!
