@@ -1,35 +1,35 @@
 //Abstract    
-@import "abstract/_mixins";
-@import "abstract/_variables";
+@import "sass/abstract/_mixins";
+@import "sass/abstract/_variables";
 
 
 //Base
-@import "base/_reset";   
+@import "sass/base/_reset";   
 
 
 //Components
-@import "components/_buttons";                
+@import "sass/components/_buttons";                
 
 
 //Layout
-@import "layout/_footer";     
-@import "layout/_header";    
-@import "layout/_navbar";   
-@import "layout/_sidebar";   
-@import "layout/_home";
+@import "sass/layout/_footer";     
+@import "sass/layout/_header";    
+@import "sass/layout/_navbar";   
+@import "sass/layout/_sidebar";   
+@import "sass/layout/_home";
 
 //Pages
-@import "pages/_about";     
-@import "pages/_contact";    
-@import "pages/_home";      
+@import "sass/pages/_about";     
+@import "sass/pages/_contact";    
+@import "sass/pages/_home";      
 
 
 //Themes
-@import "themes/_admin";       
-@import "themes/_dashboard";     
+@import "sass/themes/_admin";       
+@import "sass/themes/_dashboard";     
 
 //Vendors
-@import "vendors/_bootstrap";                          
+@import "sass/vendors/_bootstrap";                          
 
 
     
