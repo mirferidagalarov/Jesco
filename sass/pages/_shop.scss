@@ -1,50 +1,50 @@
 .shopsec{
 
-    
+
     background-color: #FCF6F6;
     padding: 100px;
     }
 
     .inshop{
-        
+
         text-align: center;
         ul{
             li{
                 &:first-child
                     {
                        a{
-                        
+
                          color: #3c3c3c;
                          &:hover
                             {
-                                
+
                                 color: #FB5D5D;
                                 }
                         }
-                        
+
                         }
-                
+
                 }
-            
+
             }
-        
+
         }
 
 
 
 .leftinp{
-     
+
     input{
         width: 14%;
         padding: 15px;
         border-radius: 10px;
-        
+
         border:1px solid #cfcfcf;
        position: absolute;
         }
 
             i{
-                
+
                 color: #cfcfcf;
                 position: relative;
                 left: 70%;
@@ -53,37 +53,37 @@
                 &:hover
                     {
                         color: #FB5D5D;
-                        
+
                         }
                 }
-    
+
     }
 
 
     .rightinp{
-        
-        
+
+
         border:1px solid #cfcfcf;
             padding: 15px;
              border-radius: 10px;
 
              p{
                 span{
-                    
+
                      color: #FB5D5D;
                     }
-                
+
                 }      
 
 
                     select{
-                        
+
                         border: none;
                         font-size: 1rem;
                         } 
-                        
+
                         }
-        
+
 
 
 // doesnt work funnly on firefox or edge, need to fix
@@ -149,7 +149,7 @@ input[type=range]::-moz-range-thumb {
   width: 16px;
   border-radius: 50%;
   background: #21c1ff;
-  
+
 }
 
 
@@ -203,27 +203,27 @@ input[type=range]:focus::-ms-fill-upper {
 
 
     .categorysidebar{
-        
+
         ul{
-            
+
             li{
-                
+
                 a{
                     color: #737070;
-                    
+
                     &:hover
                         {
-                            
+
                             color: #FB5D5D;
                             }
 
                     }
-                
+
                 }
-            
+
             }
-        
-        
+
+
         }
 
 
@@ -231,7 +231,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 
-    
+
 
 
   .element{
@@ -240,7 +240,7 @@ input[type=range]:focus::-ms-fill-upper {
          width: 40px;
          height: 40px;
          cursor: pointer;
-         
+
         a{
             display: flex;
             justify-content: center;
@@ -251,7 +251,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     #color1{
         background-color: #D28200;
-     
+
         }
 
       #color2{
@@ -265,7 +265,7 @@ input[type=range]:focus::-ms-fill-upper {
          #color4{
         background-color: #ECBBBF;
         }    
-                  
+
 
 
       .sizelement{
@@ -275,7 +275,7 @@ input[type=range]:focus::-ms-fill-upper {
          height: 40px;
          cursor: pointer;
          background-color: #D6D6D6;
-         
+
         a{
             display: flex;
             justify-content: center;
@@ -286,52 +286,31 @@ input[type=range]:focus::-ms-fill-upper {
 
 
     .tagssidebar{
-        
-      
+
+
         ul{
-            
+
             li{
-                
+
                 border: 1px solid lightgrey;
                 text-align: center;
                 padding: 10px;
                 border-radius: 5px;
                 background-color:#d9d9d9;
-                    
+
                     &:hover
                         {
                             background-color: #FB5D5D;
-                            
+
                             }
 
                                 a{
                                     color: #fff;
-                                    
+
                                     }
 
                 }
-               
-                
+
+
                 }
             }
-        
-      .imgrotate{
-        
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-             
-             img{
-              width: 100%;
-              height: 100%;
-              
-               transition: all .5s ease-in-out; 
-
-              &:hover
-                {
-                 
-                    transform: scale(1.1) rotate(5deg);
-                    }}
-
-        
-        }
