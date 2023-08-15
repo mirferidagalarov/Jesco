@@ -1,12 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section class="shopsec">
+      <div class="inshop">
+        <h1>Shop</h1>
+        <ul class="d-flex justify-content-center align-items-center mt-3">
+          <li><a href="#">Home</a></li>
+          <li>//</li>
+          <li>Shop</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="inpsec">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 leftinp">
+            <input type="text" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="col-9">
+            <div class="rightinp">
+              <div class="row">
+                <div class="col-4">
+                  <p><span>12</span> Product Found of <span>30</span></p>
+                </div>
+                <div class="col-4 ps-5">
+                  <a href="#">
+                    <i
+                      class="fa-solid fa-table-cells"
+                      style="color: #fb5d5d"
+                    ></i
+                  ></a>
+                  <a href="#"> <i class="fa-solid fa-list"></i></a>
+                </div>
+                <div class="col-4 ps-5">
+                  <span>Sort By:</span>
+                  <select>
+                    <option>Relevance</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-3">
+            <h3>
+              <i class="fa-solid fa-0 fa-2xs me-1" style="color: #fb5d5d"></i
+              >Price Filter
+            </h3>
+            <div class="range-slider">
+              <span class="rangeValues"></span>
+              <input
+                value="1000"
+                min="1000"
+                max="50000"
+                step="500"
+                type="range"
+              />
+              <input
+                value="50000"
+                min="1000"
+                max="50000"
+                step="500"
+                type="range"
+              />
+            </div>
+
+            <div class="categorysidebar mt-5">
+              <h3>
+                <i class="fa-solid fa-0 fa-2xs me-1" style="color: #fb5d5d"></i
+                >Category
+              </h3>
+              <ul>
+                <li class="my-1 mt-2"><a href="#">Accesasories (6)</a></li>
+                <li class="my-1"><a href="#">Computer (4)</a></li>
+                <li class="my-1"><a href="#">Covid-19 (2)</a></li>
+                <li class="my-1"><a href="#">Electronics (6)</a></li>
+                <li class="my-1"><a href="#">Frame Sunglasses (12)</a></li>
+                <li class="my-1"><a href="#">Furniture (7)</a></li>
+                <li class="my-1"><a href="#">Genuine Leather (9)</a></li>
+              </ul>
+            </div>
+
+            <div class="colorsidebar mt-5">
+              <h3>
+                <i class="fa-solid fa-0 fa-2xs me-1" style="color: #fb5d5d"></i
+                >Color
+              </h3>
+              <div class="d-flex gap-2 mt-3">
+                <div class="element" id="color1"></div>
+                <div class="element" id="color2"></div>
+                <div class="element" id="color3"></div>
+                <div class="element" id="color4"></div>
+              </div>
+            </div>
+
+            <div class="sizesidebar mt-5">
+              <h3>
+                <i class="fa-solid fa-0 fa-2xs me-1" style="color: #fb5d5d"></i
+                >Size
+              </h3>
+              <div class="d-flex gap-2 mt-3">
+                <div class="sizelement">
+                  <a href="#">S</a>
+                </div>
+                <div class="sizelement">
+                  <a href="#">M</a>
+                </div>
+                <div class="sizelement">
+                  <a href="#">L</a>
+                </div>
+                <div class="sizelement">
+                  <a href="#">XL</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="tagssidebar mt-5">
+              <h3><i class="fa-solid fa-0 fa-2xs me-1" style="color: #fb5d5d"></i>Tags</h3>
+              <ul class="d-flex flex-wrap gap-3 mt-4">
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Organic</a></li>
+                <li><a href="#">Old Fashion</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Dress</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-9"></div>
+        </div>
+      </div>
+    </section>
+
+    <section></section>
+
+    <script src="./sass/assets/js/shop.js"></script>
+  </body>
 </html>

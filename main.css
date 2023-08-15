@@ -183,6 +183,225 @@ footer {
   right: -40%;
 }
 
+.shopsec {
+  background-color: #FCF6F6;
+  padding: 100px;
+}
+
+.inshop {
+  text-align: center;
+}
+.inshop ul li:first-child a {
+  color: #3c3c3c;
+}
+.inshop ul li:first-child a:hover {
+  color: #FB5D5D;
+}
+
+.leftinp input {
+  width: 14%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cfcfcf;
+  position: absolute;
+}
+.leftinp i {
+  color: #cfcfcf;
+  position: relative;
+  left: 70%;
+  top: 35%;
+  cursor: pointer;
+}
+.leftinp i:hover {
+  color: #FB5D5D;
+}
+
+.rightinp {
+  border: 1px solid #cfcfcf;
+  padding: 15px;
+  border-radius: 10px;
+}
+.rightinp p span {
+  color: #FB5D5D;
+}
+.rightinp select {
+  border: none;
+  font-size: 1rem;
+}
+
+.range-slider {
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+.range-slider .rangeValues {
+  display: block;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  width: 250px;
+  position: absolute;
+  left: 0;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #21c1ff;
+  margin-top: -4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+
+input[type=range]::-moz-range-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #21c1ff;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring {
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+  width: 300px;
+  height: 5px;
+  /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+  background: transparent;
+  /*leave room for the larger thumb to overflow with a transparent border */
+  border-color: transparent;
+  border-width: 6px 0;
+  /*remove default tick marks*/
+  color: transparent;
+  z-index: -4;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #777;
+  border-radius: 10px;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #21c1ff;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #888;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #ccc;
+}
+
+.categorysidebar ul li a {
+  color: #737070;
+}
+.categorysidebar ul li a:hover {
+  color: #FB5D5D;
+}
+
+.element {
+  border: 1px red;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.element a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#color1 {
+  background-color: #D28200;
+}
+
+#color2 {
+  background-color: #505050;
+}
+
+#color3 {
+  background-color: #FF1616;
+}
+
+#color4 {
+  background-color: #ECBBBF;
+}
+
+.sizelement {
+  border: 1px red;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #D6D6D6;
+}
+.sizelement a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.tagssidebar ul li {
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+}
+.tagssidebar ul li:hover {
+  background-color: #FB5D5D;
+}
+.tagssidebar ul li a {
+  color: #fff;
+}
+
 /*!
  * Bootstrap Grid v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
