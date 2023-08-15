@@ -402,6 +402,7 @@ input[type=range]:focus::-ms-fill-upper {
   color: #fff;
 }
 
+<<<<<<< HEAD
 .imgrotate {
   overflow: hidden;
   width: 100%;
@@ -415,6 +416,21 @@ input[type=range]:focus::-ms-fill-upper {
 .imgrotate img:hover {
   transform: scale(1.1) rotate(5deg);
 }
+=======
+.big-move-img {
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+}
+.big-move-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.small-move-img img {
+  margin-left: 2%;
+}
+>>>>>>> 9638328b1232a881a67294d7155b1459d02ea645
 
 /*!
  * Bootstrap Grid v5.3.1 (https://getbootstrap.com/)
