@@ -14,7 +14,26 @@
         display: flex;
         justify-content: space-evenly;
       
+
+      li{
+        
+        a{
+          
+                    color:#4c4c4c;
+
+                        &:hover
+                            {
+                                 color: #FB5D5D;
+                                
+                                }
+                    
+            
+            }
+        
         }
+        }
+
+
     
     }
     
@@ -25,6 +44,129 @@
                  display:flex;
                  justify-content: space-evenly;
                  
+                li{
+
+                    i{
+                        color: #4c4c4c;
+                        &:hover
+                            {
+                                color:#FB5D5D;
+                                }
+                        
+                        }
+                     &:first-child
+                    {
+                        a{
+                            color: #FB5D5D;
+                            }
+                        
+                        }
+                    
+                    }
             }
 
+
         }
+
+
+
+    .news-content{
+            
+        position: absolute;
+        z-index: 1;
+        display: none;
+                background-color: white;
+
+       
+        
+         
+        
+        }
+           .news-content1{
+            
+        position: absolute;
+        z-index: 1;
+        display: none;
+        background-color: white;
+         width: 50%;
+         
+        
+        }
+       
+         .news-content2{
+            
+        position: absolute;
+        z-index: 1;
+        display: none;
+        background-color: white;
+        width: 10%;
+         
+         
+        
+        }
+
+
+ 
+   .indrop{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    }
+
+    .dropli{
+        &:hover
+            {
+                .news-content{
+                    
+                    display: block;
+                    
+                    }
+                        .news-content1{
+                    
+                    display: block;
+                    
+                    }
+                         .news-content2{
+                    
+                    display: block;
+                    
+                    }
+                }
+        }
+
+    
+
+    .dropimg {
+        
+        overflow: hidden;
+        cursor: pointer;
+        img{
+            
+            
+              width: 250px;
+              transition: all .5s ease-in-out; 
+
+              &:hover
+                {
+                    transform: scale(1.1);
+                    }
+            }
+      
+        
+        }
+
+
+.nav-link-icon-container {
+    position: relative;
+}
+    .count {
+    font-size: 10px;
+    z-index: 2;
+    background-color: #FB5D5D;
+    border-radius: 50%;
+    padding: 1px 4px;
+    color: white;
+    position: absolute;
+    top: -40%;
+    right: -40%;
+}
