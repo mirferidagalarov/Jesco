@@ -46,6 +46,8 @@ footer {
 }
 .fotrow2 ul li a:hover {
   color: #FB5D5D;
+  margin-left: 3%;
+  transition: all 0.5s ease-in-out;
 }
 
 .fotrow3 ul li h2 {
@@ -56,6 +58,8 @@ footer {
 }
 .fotrow3 ul li a:hover {
   color: #FB5D5D;
+  margin-left: 3%;
+  transition: all 0.5s ease-in-out;
 }
 
 .fotrow4 ul li h2 {
@@ -66,6 +70,8 @@ footer {
 }
 .fotrow4 ul li a:hover {
   color: #FB5D5D;
+  margin-left: 3%;
+  transition: all 0.5s ease-in-out;
 }
 
 .fotrow5 ul li {
@@ -143,6 +149,10 @@ footer {
   display: flex;
   flex-direction: column;
   display: block;
+}
+.indrop li a:hover {
+  margin-left: 3%;
+  transition: all 0.5s ease-in-out;
 }
 
 .dropli:hover .news-content {
@@ -399,6 +409,120 @@ input[type=range]:focus::-ms-fill-upper {
   background-color: #FB5D5D;
 }
 .tagssidebar ul li a {
+  color: #fff;
+}
+
+.imgsidebar {
+  position: relative;
+}
+.imgsidebar h2 {
+  bottom: 10px;
+  position: absolute;
+  z-index: 1;
+  left: 25%;
+  bottom: 40%;
+  font-size: 2rem;
+  color: #fb5d5d;
+}
+.imgsidebar a {
+  position: absolute;
+  margin-bottom: 50%;
+  z-index: 1;
+  color: #161616;
+  left: 40%;
+  top: 67%;
+}
+
+.imgrotate {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.imgrotate img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.imgrotate img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.imgcart {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.imgcart:hover a img {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1) rotate(5deg);
+}
+.imgcart:hover .hovercart {
+  display: block;
+}
+.imgcart i {
+  position: absolute;
+  z-index: 1;
+  right: 8%;
+  top: 10%;
+  cursor: pointer;
+}
+.imgcart i:hover {
+  color: #FB5D5D;
+}
+.imgcart span {
+  position: absolute;
+  right: 82%;
+  top: 5%;
+  background-color: black;
+  color: #fff;
+  padding: 0px 8px;
+}
+.imgcart img {
+  width: 100%;
+  height: 100%;
+}
+
+.propcart p i {
+  color: #ffde00;
+}
+.propcart p span {
+  color: #9f9e9e;
+}
+.propcart a {
+  color: #1d1d1d;
+}
+.propcart p {
+  color: #1d1d1d;
+}
+
+.hovercart {
+  display: none;
+}
+.hovercart i {
+  position: absolute;
+  top: 20%;
+}
+.hovercart button {
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  cursor: pointer;
+  border: 1px solid #fd3d6b;
+  border-radius: 50px;
+  width: 50%;
+  height: 15%;
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+  color: #fff;
+}
+
+.btnend button {
+  cursor: pointer;
+  border: 1px solid #fd3d6b;
+  border-radius: 50px;
+  width: 12rem;
+  height: 4rem;
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
   color: #fff;
 }
 
