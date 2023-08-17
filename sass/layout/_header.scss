@@ -24,6 +24,7 @@
                         &:hover
                             {
                                  color: #FB5D5D;
+                                 
                                 
                                 }
                     
@@ -111,6 +112,18 @@
     display: flex;
     flex-direction: column;
     display: block;
+    li{
+        a{
+            &:hover
+                {
+                    
+                      margin-left: 3%;
+                                 transition: all .5s ease-in-out;
+                    }
+            
+            }
+        
+        }
     }
 
     .dropli{
