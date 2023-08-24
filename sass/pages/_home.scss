@@ -84,8 +84,8 @@ body{
   top: 70%;
   left: 50%;
   background-color: map-get($myColorList, "white");
-  width: 45%;
-  height: 25%;
+  width: 35%;
+  height: 22%;
   border-radius: 5%;
   box-shadow: $shadow;
 }
@@ -210,6 +210,7 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 .circle-out {
   border: 1px solid rgb(196, 194, 194);
   width: 30.6%;
@@ -239,21 +240,7 @@ body{
     opacity: 0.8;
   }
 }
-.circle-out:hover .van {
-  animation: change 1s;
-  transition: all 0.5s;
-  @keyframes change {
-    0% {
-      transform: rotate(1deg) scale(1);
-    }
-    50% {
-      transform: rotate(5deg) scale(0.8);
-    }
-    100% {
-      transform: rotate(0deg) scale(1);
-    }
-  }
-}
+
 .icon {
   position: absolute;
   z-index: 5;
@@ -322,14 +309,14 @@ body{
 
 
 .card-part{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- margin: 0.4%;
+ margin: 1%;
+ 
 }
 .star-part{
-  margin: 3%;
+  margin: 4%;
 }
 .name-clothes, .price-part{
-  margin-left: 3%;
+  margin-left: 4%;
 }
 .name-clothes:hover{
   color: rgb(67, 207, 67);
@@ -438,7 +425,6 @@ width: 100%;
   }
 }
 .small-infinity-box{
-  box-shadow: $shadow;
 }
 .two-writing{
   margin-left: 7%;
@@ -491,24 +477,58 @@ width: 100%;
  
   }
 }
-.just-img-div{
-  width: 19%;
-  height: 30%;
-  bor
-  .just-img {
-    width: 100%;
-    height: 100%;
-  }
-}
+// .just-img-div{
+//   width: 19%;
+//   height: 30%;
+//   .just-img {
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
 .small-infinity-box{
-  transform: translateX(-340px);
+  margin: 0.8%;
+ 
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding-bottom: 3%;
 }
-.small-infinity-box{
-  margin: 0.1%;
+.movement{
+  transition: all 1s ease;
 }
 .watch-girl-part{
   img{
     width: 100%;
     height: 100%;
+  }
+}
+.van-out-div{
+  width:25%;
+  margin:2%;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#d34836
+}
+.border-div-three{
+  border:1px solid rgb(216, 213, 213);
+}
+.for-height-line{
+  p{
+    line-height:80%;
+  }
+}
+.border-div-three:hover .van-car {
+  animation: change 1s;
+  transition: all 0.5s;
+  @keyframes change {
+    0% {
+      transform: rotate(1deg) scale(1);
+    }
+    50% {
+      transform: rotate(5deg) scale(0.8);
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+    }
   }
 }

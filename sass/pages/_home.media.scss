@@ -1,0 +1,230 @@
+@media (max-width:1200px) {
+    .container1{
+       display: flex;
+       justify-content: center;
+    }
+    .small-img-div{
+        width: 100%;
+    }
+    .girl-img{
+        width: 100%;
+    }
+    .small-img-div1{
+        width: 24vw !important;
+        
+    }
+    .girl-img{
+        width: 100%;
+        height: 100%;
+    }
+    .small-img-div{
+        width: 60vw !important;
+        height: 130vh;
+        
+    }
+    .small-img-div1{
+        width: 60vw !important;
+        height: 130vh;
+        
+    }
+    .container1{
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
+        align-items: center;
+        height: 180% !important;
+     }
+   
+}
+@media (max-width:1050px) {
+    .img{
+        width: 90%;
+        height: 90%;
+    }
+    .small-box{
+        width: 27vw !important;
+    }
+    .sale,.off{
+        font-size: 340%;
+    }
+    .div-arrow{
+        width: 80% !important;
+    }
+    
+    .btn-shop{
+        width: 80% !important;
+    }
+}
+
+@media (max-width:994px) {
+    .container1{
+       margin-left: 0%;
+       margin-right: 0%;
+     }
+     .first-page{
+        height: auto !important;
+     }
+      .circle-out{
+        width: 60% !important;
+        height: 20% !important;
+        margin-top: -10%;
+    }
+    .three-small-box-home{
+        margin-bottom: 40%;
+      }
+}
+
+@media (max-width:930px) {
+    .container1{
+       flex-direction: column;
+       width: 100%;
+       justify-content: start;
+       align-items: center;
+       height: 180% !important;
+    }
+    
+    .circle-out{
+        margin-top: 0 !important;
+        margin-bottom: 4%;
+    }
+    .first-page{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .box-height{
+        height: 30%;
+    }
+   
+    .div-text{
+        margin-top: 5%;
+    }
+    .div-text p:nth-child(1){
+        font-size: 200% !important;
+    }
+    .div-text p:nth-child(2){
+        font-size: 130% !important;
+    }
+        
+}
+@media (max-width:861px) {
+    .small-div-col{
+        font-size: 80%;
+    }
+    
+}
+@media (max-width:800px) {
+    .circle-out{
+        width: 60% !important;
+        height: 26% !important;
+        margin-top: -10%;
+    }
+    .div-text p:nth-child(1){
+        font-size: 170% !important;
+    }
+    .div-text p:nth-child(2){
+        font-size: 130% !important;
+    }
+    .small-bag img{
+        width: 80%;
+        height: 70%;
+    }
+    .small-bag{
+        width: 40%;
+    }
+    .box-height{
+        height: 60% !important;
+      }
+}
+@media (max-width:761px) {
+.small-box{
+    display: none;
+}
+
+}
+@media (max-width:761px) {
+.small-img-div{
+    width: 98vw !important;
+    height: 130vh;
+    
+}
+.small-img-div1{
+    width: 98vw !important;
+    height: 130vh;
+    
+}}
+
+@media (max-width:600px) {
+    .circle-out{
+        width: 70%!important;
+        height: 50% !important;
+        margin-top: -10%;
+    }
+    .div-text p:nth-child(1){
+        font-size: 130% !important;
+    }
+    .div-text p:nth-child(2){
+        font-size: 100% !important;
+    }
+    .small-bag img{
+        width: 70%;
+        height: 80%;
+    }  
+}
+@media (max-width:500px) {
+    .circle-out{
+        width: 70% !important;
+        height: 50% !important;
+        margin-top: -10%;
+    }
+    .div-text p:nth-child(1){
+        font-size: 140% !important;
+    }
+    .div-text p:nth-child(2){
+        font-size: 110% !important;
+    }
+    .small-bag img{
+        width: 60%;
+        height: 70%;
+    }  
+    .small-writing1 p:nth-child(1){
+        font-size: 140% !important;
+    }
+    .small-writing1 p:nth-child(2){
+        font-size: 85% !important;
+    }
+}
+@media (max-width:401px) {
+    .small-img-div{
+        width: 98vw !important;
+        height: 25vh !important;
+        
+    }
+    .small-img-div1{
+        width: 98vw !important;
+        height: 25vh !important;}
+    .circle-out{
+        width: 95% !important;
+        height: 50% !important;
+        margin-top: -10%;
+    }
+    .sale{
+        font-size: 200%;
+    }
+    }
+@media (max-width:300px) {
+    
+    .div-text p:nth-child(1){
+        font-size: 130% !important;
+    }
+    .div-text p:nth-child(2){
+        font-size: 100% !important;
+    }
+    .small-bag img{
+        width: 60%;
+        height: 70%;
+    }  
+}
+
+
+
+
