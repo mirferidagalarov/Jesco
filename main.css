@@ -1314,6 +1314,7 @@ input[type=range]:focus::-ms-fill-upper {
   top: 0;
 }
 
+<<<<<<< HEAD
 .head-h-faq {
   font-size: 180%;
   font-weight: 400;
@@ -1572,6 +1573,286 @@ input[type=range]:focus::-ms-fill-upper {
     height: 70%;
   }
 }
+=======
+.searchHere {
+  background-color: #fcf6f6;
+  border-radius: 10px;
+  padding: 50px;
+}
+.searchHere input {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 5px 0 0 5px;
+  padding: 1rem;
+  border: 1px solid #d7d7d7;
+  background-color: #fcf6f6;
+}
+.searchHere h1 {
+  padding-bottom: 1rem;
+}
+.searchHere button {
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #d7d7d7;
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+  margin-left: -5px;
+  cursor: pointer;
+}
+.searchHere button i {
+  color: #fff;
+}
+
+.postCategories {
+  background-color: #fcf6f6;
+  border-radius: 10px;
+  padding: 50px;
+}
+.postCategories ul li {
+  width: 100%;
+  height: 2rem;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin: 1rem 0 1rem 0;
+  border-radius: 5px;
+  padding: 5px 0 0 5px;
+}
+.postCategories ul li:hover {
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+}
+.postCategories ul li:hover a {
+  color: #fff;
+}
+.postCategories ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #494949;
+}
+
+.recentPost {
+  background-color: #fcf6f6;
+  border-radius: 10px;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.childPost {
+  padding: 1rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+.childPost1 {
+  padding: 1rem;
+}
+
+.leftimgpost {
+  width: 6rem;
+  height: 4rem;
+}
+.leftimgpost img {
+  width: 6rem;
+  height: 4rem;
+}
+
+.righttextpost i {
+  color: #fb5d5d;
+}
+.righttextpost span {
+  color: #454545;
+}
+.righttextpost a {
+  color: #383838;
+  font-size: 1rem;
+}
+.righttextpost a:hover {
+  color: #FB5D5D;
+}
+
+.populartags {
+  background-color: #fcf6f6;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.populartags ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.populartags ul li {
+  width: 7rem;
+  height: 2rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  text-align: center;
+}
+.populartags ul li:hover {
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+}
+.populartags ul li:hover a {
+  color: #fff;
+}
+.populartags ul li a {
+  color: #7e7e7e;
+}
+
+.rightblogimg {
+  width: 50rem;
+  height: 36rem;
+}
+.rightblogimg img {
+  width: 50rem;
+  height: 35rem;
+}
+
+.textcalendardialog a:hover span {
+  color: #fb5d5d;
+}
+.textcalendardialog a i {
+  color: #fb5d5d;
+}
+.textcalendardialog a span {
+  color: #454545;
+}
+
+.loremtext h1 {
+  font-size: 2.3rem;
+}
+.loremtext p {
+  width: 52rem;
+  line-height: 1.8;
+  color: #777777;
+}
+
+.redloremtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F9F9;
+  padding: 2rem;
+}
+.redloremtext p {
+  width: 40rem;
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+}
+
+.h1textblack {
+  font-size: 1.5rem;
+}
+
+.iconcommentblog {
+  width: 80%;
+  background-color: #f9f9f9;
+  padding: 1rem;
+}
+
+.iconcomment {
+  width: 100%;
+}
+
+.inicon a {
+  color: #000000;
+}
+.inicon a:hover {
+  color: #fb5d5d;
+}
+
+.inahref a {
+  color: #9f9f9f;
+}
+.inahref a:hover {
+  color: #fb5d5d;
+}
+
+.angel {
+  width: 80%;
+}
+
+.leftangel button {
+  width: 6rem;
+  height: 4rem;
+  background-color: #777777;
+  cursor: pointer;
+  border: 1px solid #777777;
+}
+.leftangel button:hover {
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+}
+
+.rightangel {
+  display: flex;
+  justify-content: end;
+}
+.rightangel button {
+  width: 6rem;
+  height: 4rem;
+  background-color: #777777;
+  cursor: pointer;
+  border: 1px solid #777777;
+}
+.rightangel button:hover {
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+}
+
+.commentblogperson {
+  width: 70%;
+}
+
+.commentright h4 {
+  color: #000000;
+  font-size: 1.5rem;
+}
+.commentright span {
+  color: #666666;
+}
+.commentright p {
+  color: #777777;
+  line-height: 1.8;
+}
+.commentright button {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 20px;
+  color: #fff;
+  background: linear-gradient(155deg, #343434 100%, #343434 100%, #343434 100%);
+  cursor: pointer;
+}
+.commentright button:hover {
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+}
+.commentright button a {
+  color: #fff;
+}
+
+.controlpostcomment {
+  width: 80%;
+}
+.controlpostcomment button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 25px;
+  background: linear-gradient(-155deg, #fd3d6b 0%, #fd7863 98%, #f3dfe0 100%);
+  cursor: pointer;
+  border: 1px solid #fd7863;
+}
+.controlpostcomment button a {
+  color: #fff;
+}
+
+.inp6 {
+  width: 100%;
+  height: 2.5rem;
+  text-indent: 10px;
+  border: 1px solid lightgrey;
+}
+
+#txt {
+  text-indent: 10px;
+  border: 1px solid lightgrey;
+}
+
+>>>>>>> origin/mirfarid
 /*!
  * Bootstrap Grid v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
